@@ -1,0 +1,8 @@
+2022/10/20 22:50:30.109466 engine.go:515: [Debug] HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.echoHandler (num=1 handlers)
+2022/10/20 22:50:30.109688 transport.go:88: [Info] HERTZ: HTTP server listening on address=[::]:8001
+2022/10/20 22:50:33.256416 engine.go:515: [Debug] HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.echoHandler (num=1 handlers)
+2022/10/20 22:50:33.256752 transport.go:88: [Info] HERTZ: HTTP server listening on address=[::]:8001
+2022/10/20 22:50:36.397468 engine.go:515: [Debug] HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.echoHandler (num=1 handlers)
+2022/10/20 22:50:36.397669 transport.go:88: [Info] HERTZ: HTTP server listening on address=[::]:8001
+2022/10/20 22:50:39.536541 engine.go:515: [Debug] HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.echoHandler (num=1 handlers)
+2022/10/20 22:50:39.536770 transport.go:88: [Info] HERTZ: HTTP server listening on address=[::]:8001
