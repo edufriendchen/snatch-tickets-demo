@@ -7,9 +7,9 @@
 由于本人服务器配置和数量资源有限，只能通过单机下的并发性能进一步合理推演集群下的并发性能。
 
 - 框架  
--放票服务server使用的字节Golang 微服务 HTTP 框架——[Hertz](https://www.cloudwego.io/zh/docs/hertz/)搭建。  
+-放票服务ticketing_server使用的字节Golang 微服务 HTTP 框架——[Hertz](https://www.cloudwego.io/zh/docs/hertz/)搭建。  
 -客户服务client同样使用Hertz搭建，并参考[官方hertz压测示例项目](https://github.com/cloudwego/hertz-benchmark)实现了模拟高并发请求。    
--订单信息消费服务consumer使用了MQ消息队列，实现订单与放票服务器的解耦也起到削峰的作用。  
+-订单信息消费服务order_server使用了MQ消息队列，实现订单与放票服务器的解耦也起到削峰的作用。  
 -利用go的协程以及Hertz的netpoll对网络的优化来尽可能的提升单机下的并发。
 
 - 系统高并发  
