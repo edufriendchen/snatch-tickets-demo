@@ -1,0 +1,2 @@
+2022/10/21 10:40:04.121623 engine.go:515: [Debug] HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.echoHandler (num=1 handlers)
+2022/10/21 10:40:04.121860 transport.go:88: [Info] HERTZ: HTTP server listening on address=[::]:8001
