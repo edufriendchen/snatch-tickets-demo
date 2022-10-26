@@ -8,7 +8,9 @@ import (
 
 // URL  格式 amqp://账号：密码@rabbitmq服务器地址：端口号/vhost (默认是5672端口)
 // 端口可在 /etc/rabbitmq/rabbitmq-env.conf 配置文件设置，也可以启动后通过netstat -tlnp查看
-const URL = "amqp://guest:guest@localhost:5672/"
+const URL = "amqp://friend:friendchen@localhost:5672/"
+
+var Mq *RabbitMQ
 
 type RabbitMQ struct {
 	Conn    *amqp.Connection
