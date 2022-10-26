@@ -1,8 +1,0 @@
-[1;36;40mInfo: [0m[1;36;40m[hertz_client - ticketing_server][0m start benching, body size: 1, header size: 0. concurrent: 100, total: 3000
-[1;36;40mInfo: [0m[hertz_client - ticketing_server]: took 38 ms for 3000 requests
-[1;36;40mInfo: [0m[hertz_client - ticketing_server]: requests total: 3000, failed: 0
-[1;36;40mInfo: [0m[1;36;40m[hertz_client - ticketing_server]: TPS: 77505.22, TP99: 5.41ms, TP999: 5.59ms (b=1 Byte, h=0 Byte, c=100, n=3000)[0m
-[hertz_client@Client] CPU Usage: MIN: 153.85%, TP50: 0.00%, TP90: 0.00%, TP99: 0.00%, MAX: 153.85%, AVG:153.85%
-[hertz_client@Client] Mem Usage: AVG: 25472 KB, MAX: 25472 KB
-
-
